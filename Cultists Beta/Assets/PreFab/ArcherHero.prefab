@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5214252216597398385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5214252216597398387}
+  - component: {fileID: 5214252216597398389}
+  - component: {fileID: 5214252216597398386}
+  - component: {fileID: 1720117022411905083}
+  - component: {fileID: 8994553531614439490}
+  - component: {fileID: 5370476778223233606}
+  - component: {fileID: 7231652712185108002}
+  - component: {fileID: 5214252216597398388}
+  m_Layer: 0
+  m_Name: ArcherHero
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5214252216597398387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5214252216597398385}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.723, y: -0.971, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &5214252216597398389
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5214252216597398385}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 3abfcd9564735ad40a6e0163082262af, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.64, y: 0.64}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &5214252216597398386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5214252216597398385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 675fc0f85b2785f48ad73cbf14351cd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CharacterStats:
+  - name: 
+    health: 0
+    speed: 0
+    magRes: 0
+    phisRes: 0
+    Face: {fileID: 0}
+    Abilities: []
+  HeroOrEnemy: 0
+  CD: 00000000020000000200000004000000
+  CurrCD: 00000000000000000000000000000000
+  Health: 150
+  speed: 6
+  initia: 0
+  MagRes: 10
+  PhisRes: 30
+  Face: {fileID: 21300000, guid: 33e4b628c842ec947b446a143e757e4e, type: 3}
+  curHealth: 0
+  WhoAmI: 0
+  TurnAmI: 0
+  Length: []
+  Debuffs: []
+  Abilities:
+  - {fileID: 1720117022411905083}
+  - {fileID: 8994553531614439490}
+  - {fileID: 5370476778223233606}
+  - {fileID: 7231652712185108002}
+  AbilityDesc:
+  - '50 damage, targets 1, 2, 3, physical damage. '
+  - '70 damage, targets 1, 2, physical damage; 2 turn(s) cooldown. '
+  - '20 damage, DOT for 10, targets 1, physical damage; 2 turn(s) cooldown. '
+  - '30 damage to every enemy, physical damage; 4 turn(s) cooldown. '
+  AbilityImage:
+  - {fileID: 21300000, guid: 4ec205a4684ae314fb8f167b20ffd04e, type: 3}
+  - {fileID: 21300000, guid: d79d8e3facebeb044a29452453d33b80, type: 3}
+  - {fileID: 21300000, guid: cd65289e33508a74e81764437537af28, type: 3}
+  - {fileID: 21300000, guid: 7fceaf6019ed41c4ea90640393112979, type: 3}
+  AbilitySounds:
+  - {fileID: 8300000, guid: 58fdb05889fb9bf47872296097a75695, type: 3}
+  - {fileID: 8300000, guid: 58fdb05889fb9bf47872296097a75695, type: 3}
+  - {fileID: 8300000, guid: f341ad2f2a6814d47a184b287249a2ad, type: 3}
+  - {fileID: 8300000, guid: 58fdb05889fb9bf47872296097a75695, type: 3}
+  canattack: 
+--- !u!114 &1720117022411905083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5214252216597398385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7718ad2ec6aa9445a32d209c37c01ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canAttack: 010101
+  DamageType: 0
+  Damage: 50
+  DamageOverTime: 0
+  Mod: 0
+  StunLength: 0
+  SlowLenght: 0
+  SlowStrength: 0
+  AoE: 0
+--- !u!114 &8994553531614439490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5214252216597398385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7718ad2ec6aa9445a32d209c37c01ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canAttack: 010100
+  DamageType: 0
+  Damage: 70
+  DamageOverTime: 0
+  Mod: 0
+  StunLength: 0
+  SlowLenght: 0
+  SlowStrength: 0
+  AoE: 0
+--- !u!114 &5370476778223233606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5214252216597398385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7718ad2ec6aa9445a32d209c37c01ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canAttack: 010000
+  DamageType: 0
+  Damage: 30
+  DamageOverTime: 10
+  Mod: 0
+  StunLength: 0
+  SlowLenght: 0
+  SlowStrength: 0
+  AoE: 0
+--- !u!114 &7231652712185108002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5214252216597398385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7718ad2ec6aa9445a32d209c37c01ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canAttack: 010101
+  DamageType: 0
+  Damage: 30
+  DamageOverTime: 0
+  Mod: 0
+  StunLength: 0
+  SlowLenght: 0
+  SlowStrength: 0
+  AoE: 1
+--- !u!95 &5214252216597398388
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5214252216597398385}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ff5929288014ed746842e95625a12a16, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

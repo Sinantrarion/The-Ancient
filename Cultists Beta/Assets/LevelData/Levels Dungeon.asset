@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d32df7ce69b25845950a66d80067a4e, type: 3}
+  m_Name: Levels Dungeon
+  m_EditorClassIdentifier: 
+  EnemyMelee:
+  - {fileID: 6820783360451520686, guid: f3616ab5942cb0e46a52cfe2ac795c83, type: 3}
+  EnemyRanged:
+  - {fileID: 2272469988507336488, guid: 90164344b09e33a4998793cbae1f672e, type: 3}
+  EnemySupport: []
+  Background:
+  - {fileID: 21300000, guid: 9820d7620cd89db468c986ff9498d656, type: 3}
+  - {fileID: 21300000, guid: 8d6700b0af1b53243b0d6d6d89aa39f6, type: 3}
+  - {fileID: 21300000, guid: ad265b2e16684c64caca13545c6c940e, type: 3}
+  - {fileID: 21300000, guid: 5cf795ed8226ae146aa0a3227cc7777a, type: 3}
+  bossBackground: {fileID: 21300000, guid: b31082093d5230343ba6ba517dfb9b4d, type: 3}
+  Boss: {fileID: 5046204111808188537, guid: 1f5a4e596ad5f9242aa03d0a03b92f33, type: 3}
+  NumberOfLevels: 1

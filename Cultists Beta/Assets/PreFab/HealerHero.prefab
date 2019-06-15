@@ -1,0 +1,229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4042993420306542154
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4042993420306542164}
+  - component: {fileID: 8439010492273497142}
+  - component: {fileID: 4042993420306542155}
+  - component: {fileID: 8383617824740822151}
+  - component: {fileID: 6257330678481674193}
+  - component: {fileID: 6762808953006130849}
+  - component: {fileID: 972667607248222496}
+  - component: {fileID: 93853225765865348}
+  m_Layer: 0
+  m_Name: HealerHero
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4042993420306542164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4042993420306542154}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4, y: -0.115, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &8439010492273497142
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4042993420306542154}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 1924ce84929cae24db2cc9ee68c6cbfb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.64, y: 0.64}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &4042993420306542155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4042993420306542154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 675fc0f85b2785f48ad73cbf14351cd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HeroOrEnemy: 0
+  CD: 0000000002000000040000000a000000
+  CurrCD: 00000000000000000000000000000000
+  Health: 120
+  speed: 5
+  initia: 0
+  MagRes: 40
+  PhisRes: 10
+  Face: {fileID: 21300000, guid: e6d2058f7fd06bb42926388493086acd, type: 3}
+  curHealth: 0
+  WhoAmI: 0
+  TurnAmI: 0
+  Length: []
+  Debuffs: []
+  Abilities:
+  - {fileID: 8383617824740822151}
+  - {fileID: 6257330678481674193}
+  - {fileID: 6762808953006130849}
+  - {fileID: 972667607248222496}
+  AbilityDesc:
+  - '40 damage, targets 1, 2; magical damage. '
+  - '50 healing, targets 1, 2; 2 turn(s) cooldown. '
+  - 'Buff for 4 speed, targets 2, 3; 4 turn(s) cooldown. '
+  - 'Revive, targets 1, 2, 3; 10 turn(s) cooldown. '
+  AbilityImage:
+  - {fileID: 21300000, guid: 55b7ba3c921964e41be9e2626494c389, type: 3}
+  - {fileID: 21300000, guid: 7803d8b2834f05c488a6e87c302dd123, type: 3}
+  - {fileID: 21300000, guid: 4b7d3656cd7e0ac4c9df7aa71132171d, type: 3}
+  - {fileID: 21300000, guid: c6df98c4473fe5a4ea6b34ceea37d185, type: 3}
+  AbilitySounds:
+  - {fileID: 8300000, guid: 8cebaf076a82cf849be8eaa4ab3443a1, type: 3}
+  - {fileID: 8300000, guid: 67b56b5712baaf34c8a51a0c6ad038b5, type: 3}
+  - {fileID: 8300000, guid: 67b56b5712baaf34c8a51a0c6ad038b5, type: 3}
+  - {fileID: 0}
+  canattack: 
+--- !u!114 &8383617824740822151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4042993420306542154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7718ad2ec6aa9445a32d209c37c01ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canAttack: 010100
+  DamageType: 1
+  Damage: 40
+  DamageOverTime: 0
+  Mod: 0
+  StunLength: 0
+  SlowLenght: 0
+  SlowStrength: 0
+  AoE: 0
+--- !u!114 &6257330678481674193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4042993420306542154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cf26ec1435015d4089fc1b4509ae129, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canAttack: 010100
+  Healing: 50
+  Mod: 0
+  BuffToSpeed: 0
+  BuffToHP: 0
+  BuffToMR: 0
+  BuffToPR: 0
+  Length: 0
+  AoE: 0
+--- !u!114 &6762808953006130849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4042993420306542154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cf26ec1435015d4089fc1b4509ae129, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canAttack: 000101
+  Healing: 0
+  Mod: 0
+  BuffToSpeed: 4
+  BuffToHP: 0
+  BuffToMR: 0
+  BuffToPR: 0
+  Length: 2
+  AoE: 0
+--- !u!114 &972667607248222496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4042993420306542154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1311ba7ddd3586c4d841f526e7fc2e19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canAttack: 010101
+--- !u!95 &93853225765865348
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4042993420306542154}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2eea07969c6e96a4091270d6b221d27b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

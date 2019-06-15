@@ -1,0 +1,480 @@
+fileFormatVersion: 2
+guid: c155735cdfa83a44e95afc7accbee0a3
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Archer fire attack_0
+    21300002: Archer fire attack_1
+    21300004: Archer fire attack_2
+    21300006: Archer fire attack_3
+    21300008: Archer fire attack_4
+    21300010: Archer fire attack_5
+    21300012: Archer fire attack_6
+    21300014: Archer fire attack_7
+    21300016: Archer fire attack_8
+    21300018: Archer fire attack_9
+    21300020: Archer fire attack_10
+    21300022: Archer fire attack_11
+    21300024: Archer fire attack_12
+    21300026: Archer fire attack_13
+    21300028: Archer fire attack_15
+    21300030: Archer fire attack_18
+    21300032: Archer fire attack_19
+    21300034: Archer fire attack_20
+    21300036: Archer fire attack_14
+    21300038: Archer fire attack_16
+    21300040: Archer fire attack_17
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Archer fire attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd0756385b75d4408710b219178a080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer fire attack_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 146
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f885c88e8ec8b4b8538715d68e0061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer fire attack_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 146
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412bf2335b46f3049a122a93072678aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer fire attack_3
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 146
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06232fc352d744a4bbbd434e2f74b3cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer fire attack_4
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 146
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff654c8c91ba114e8b7363ef3f1c364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer fire attack_5
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 146
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f78364e9c926dc4386d7ecc4ca27c59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer fire attack_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 73
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca630f24cba1eaa48a731e447b69e83e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer fire attack_7
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 73
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4f96f68931f21459a57360012cbc1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer fire attack_8
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 73
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c556abda6152859469e24727c1c10097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer fire attack_9
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 73
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308fcff116e926f40abe795bf20fc625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer fire attack_10
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 73
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6994e6b223e40ea4bb55d3589ec78d84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer fire attack_11
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 73
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687fecf748beae340aa3b313b7c71db8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer fire attack_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e43e519abff4b409d777f8a2529c34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer fire attack_13
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac4b3aa4f02e5b41a75bc3934ce4cfb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer fire attack_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ea19ae336450b4fa2820c5f5a49b44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer fire attack_15
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd45287681a09545ad7d3cfc8d065ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer fire attack_16
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d33543421c913c4c9f77e30e5f1861a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer fire attack_17
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 0
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fa9b4de1d2b4f47a28560fdd9b113f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 976e79694f985214ca0a917afaf8adc0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

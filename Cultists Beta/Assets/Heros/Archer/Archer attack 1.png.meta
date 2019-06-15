@@ -1,0 +1,479 @@
+fileFormatVersion: 2
+guid: 83b18694814e5c94c888326c28edbfa2
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Archer attack 1_0
+    21300002: Archer attack 1_1
+    21300004: Archer attack 1_2
+    21300006: Archer attack 1_3
+    21300008: Archer attack 1_4
+    21300010: Archer attack 1_5
+    21300012: Archer attack 1_6
+    21300014: Archer attack 1_7
+    21300016: Archer attack 1_8
+    21300018: Archer attack 1_9
+    21300020: Archer attack 1_10
+    21300022: Archer attack 1_11
+    21300024: Archer attack 1_12
+    21300026: Archer attack 1_13
+    21300028: Archer attack 1_14
+    21300030: Archer attack 1_17
+    21300032: Archer attack 1_18
+    21300034: Archer attack 1_19
+    21300036: Archer attack 1_15
+    21300038: Archer attack 1_16
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Archer attack 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65c04f880897b04ab57432a14db7f8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer attack 1_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 146
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a29cbaf66d3dd74fa403016a5bf6e17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer attack 1_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 146
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2ad8dae66b3cc40b9d59d5d86e3777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer attack 1_3
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 146
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efed0bf3fe4fb9f4ba1518aa8cefc852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer attack 1_4
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 146
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbd7305a2822ae4796b69675a1f28da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer attack 1_5
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 146
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239ce156dc0b3684c8e282ca3f7c22ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer attack 1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 73
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9999794cc349c4f9c5efe331e8de83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer attack 1_7
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 73
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5d6938ff01c8a48b757271f596b24d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer attack 1_8
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 73
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f5c40540a904047bde0c32c2cc9b74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer attack 1_9
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 73
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b74d061f7a9b142aa8eedec1be8e31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer attack 1_10
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 73
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863e948c0d999e647b6196e254a6cd42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer attack 1_11
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 73
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6db5e7923faa7646bf1d483249f6f95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer attack 1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c10f7ce93740d04a8dec85162168c27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer attack 1_13
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e83ea8b179ddd459d110cc0788c787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer attack 1_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d11c0cb7eb142a42ae36ebac6e6d0d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer attack 1_15
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9e5ed281bb5814cbd3c665bfc1f0e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer attack 1_16
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948d8b2d49357054a8a01d8f0d2fb95b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Archer attack 1_17
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 0
+        width: 75
+        height: 73
+      alignment: 9
+      pivot: {x: 0.34666666, y: 0.49315068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b37d165a9a47f4e88899637244b212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bfcca221809b9aa4db49e7babe5acd25
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
